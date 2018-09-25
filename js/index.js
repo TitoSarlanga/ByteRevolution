@@ -1,16 +1,14 @@
-(function() {
+"use strict";
 
-    "use strict";
+window.onload = init();
 
-    window.onload = init();
-
-    function init(){
-        
-        if(navigator.language == 'es-AR'){
-            window.location = "es.html";
-        }
-        else {
-            window.location = "en.html";
-        }
-    };
-});
+function init(){
+    
+    var strLang = navigator.language.substring(0,2);
+    if(strLang == 'es'){
+        window.location = "es.html";
+    }
+    else {
+        window.location = "en.html";
+    }
+};

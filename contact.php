@@ -21,7 +21,7 @@ switch ($lang){
 
 // configure
 $from = 'Formulario de contacto web <demo@domain.com>';
-$sendTo = 'Formulario de contacto web <byterevolutionok@gmail.com>'; // Add Your Email
+$sendTo = 'Formulario de contacto web <ledisalvo@gmail.com>'; // Add Your Email
 $subject = 'Nuevo mensaje de un usuario';
 $fields = array('name' => 'Nombre', 'subject' => 'Asunto', 'email' => 'Email', 'message' => 'Mensaje'); // array variable name => Text to appear in the email
 
