@@ -1,23 +1,8 @@
 <?php
 
-$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-switch ($lang){
-    case "es":
-        //echo "PAGE ES";
-        $okMessage = '¡Tu consulta se envió con éxito! Te estaré contactando a la brevedad. ¡Muchas Gracias!';
-        $errorMessage = '¡Ooops! Hubo un problema para enviar tu consulta, por favor volvé a intentarlo más tarde';
-        break;
-    case "en":
-        //echo "PAGE EN";
-        $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-        $errorMessage = 'There was an error while submitting the form. Please try again later';
-        break;        
-    default:
-        //echo "PAGE ES - Setting Default";
-        $okMessage = '¡Tu consulta se envió con éxito! Te estaré contactando a la brevedad. ¡Muchas Gracias!';
-        $errorMessage = '¡Ooops! Hubo un problema para enviar tu consulta, por favor volvé a intentarlo más tarde';
-        break;
-}
+//echo "PAGE EN";
+$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // configure
 $from = 'Formulario de contacto web <demo@domain.com>';
