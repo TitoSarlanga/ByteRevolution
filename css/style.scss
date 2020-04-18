@@ -47,6 +47,16 @@ $desk-md-screen: 991px;
 	list-style: none;
 }
 
+@font-face {
+	font-family: "Open Sans";
+	src: url("./../fonts/OpenSans-Regular.ttf");
+  }
+  
+  @font-face {
+	font-family: "Josefin Sans";
+	src: url("./../fonts/JosefinSans-VariableFont_wght.ttf");
+  }
+
 body {
 	color: #333;
 	line-height: 1.3;
@@ -1019,8 +1029,11 @@ span, a, a:hover {
 }
 
 /* ----------------------------------------------------------------
-				11 Blog
+				11 Labs
 -----------------------------------------------------------------*/
+#codepen {
+	color: #C49B66;
+}
 
 .blog{
 
